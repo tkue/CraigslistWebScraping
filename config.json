@@ -1,0 +1,22 @@
+{
+  "database": {
+      "name": "craigslist.db",
+      "schema_script": "Craigslist/schema.sql"
+  },
+  "selenium": {
+      "chrome_driver_path": "drivers/chromedriver",
+      "chrome_driver_arguments": [
+          "--start-maximized"
+      ]
+  },
+  "logging": {
+      "level": "INFO"
+  },
+  "session": {
+      "start_url": "https://washingtondc.craigslist.org/d/apts-housing-for-rent/search/apa"
+  },
+  "connection": {
+      "original_public_ip": "173.73.119.14",
+      "is_need_mask_ip": "true"
+  }
+}

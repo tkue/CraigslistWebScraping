@@ -1,0 +1,9 @@
+__pychache__/*
+*.log
+.idea/*
+__pycache__/
+
+\.idea/
+*.dropbox
+\.vs/
+\.vscod/
